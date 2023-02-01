@@ -22,7 +22,9 @@ public class HastaneAnaMenu {
                 HastaMenu.hastaMenu();
                 break;
             case"Y":
-                HastaneYonetimPaneli.yonetimMenu();
+                    boolean sonuc=    Login.login();
+                    if (sonuc){HastaneYonetimPaneli.yonetimMenu();}
+                    else {System.out.println("Yanlis Giris yaptiniz! Lutfen Yonetim ile gorusunuz");  }
                     break;
             case "Q":
                 devam=false;

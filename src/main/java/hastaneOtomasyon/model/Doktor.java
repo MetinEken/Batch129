@@ -21,10 +21,18 @@ public class Doktor extends ParentClass {
         this.bolum = bolum;
     }
 
+//    @Override
+//    public String toString() {
+//        return "Doktor{" +
+//                "bolum='" + bolum + '\'' +"NAme = "+getName()+ '\''+" LastName = "+getLastNAme()+
+//                '}';
+//    }
+
+
     @Override
     public String toString() {
         return "Doktor{" +
-                "bolum='" + bolum + '\'' +"NAme = "+getName()+ '\''+" LastName = "+getLastNAme()+
-                '}';
+                "bolum='" + bolum + '\'' +
+                "} " + super.toString();
     }
 }

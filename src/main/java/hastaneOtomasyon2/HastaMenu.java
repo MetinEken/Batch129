@@ -18,10 +18,10 @@ public class HastaMenu {
 
             switch (secim){
                 case"R":
-                   // RANDEVUISLEMLER();
+                    Randevu.randevuAlma();
                     break;
                 case"G":
-                    //RANDEVUGOSTER();
+                    VeriBankasi.randevumuGoster();
                     break;
                 case "Q":
                     devam=false;
