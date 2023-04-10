@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -13,7 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="d8318a3b-5b5c-43dd-9c5c-6ab219b5cc21">
-      <console name="Connection" type="STANDARD" schema="pfmegrnargs" session="Main"><![CDATA[select * from rnacen.auth_group;]]></console>
+      <console name="Connection" type="STANDARD" schema="pfmegrnargs" session="Main">select * from rnacen.auth_group;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
